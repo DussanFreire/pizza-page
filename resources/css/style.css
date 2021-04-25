@@ -24,6 +24,8 @@ section {
 }
 .img-row {
   margin: 0 auto;
+  width: 95%;
+  margin-left: 2.5%;
 }
 /* Buttons!---------------------------------------------------- */
 
@@ -170,4 +172,36 @@ h3 {
   color: #e67e22;
   margin-bottom: 10px;
   --ionicon-stroke-width: 16px;
+}
+/* pizzas---------------------------------------------- */
+.pizzas-list {
+  list-style: none;
+  width: 100%;
+}
+.pizzas-list li {
+  display: block;
+  float: left;
+  width: 33.33%;
+}
+
+.pizza-photo {
+  width: 100%;
+}
+.pizza-photo img {
+  width: 80%;
+  margin: 4% 10% 4% 10%;
+  height: auto;
+}
+figure {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+figcaption {
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  text-transform: uppercase;
+  width: 80%;
+  height: 80px;
+  margin: 0% 10% 0% 10%;
+  display: block;
 }
