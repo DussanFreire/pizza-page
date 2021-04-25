@@ -186,22 +186,37 @@ h3 {
 
 .pizza-photo {
   width: 100%;
+  overflow: hidden;
 }
 .pizza-photo img {
-  width: 80%;
-  margin: 4% 10% 4% 10%;
+  opacity: 0.9;
+  width: 60%;
+  margin: 4% 20% 4% 20%;
   height: auto;
+  transform: scale(1.1);
+  transition: transform 0.5s;
 }
+.pizza-photo img:hover {
+  transform: scale(1.03);
+  opacity: 1;
+}
+
 figure {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
-figcaption {
+figure a:visited,
+figure a:link {
   color: white;
   text-align: center;
-  font-size: 200%;
+  font-size: 175%;
   text-transform: uppercase;
-  width: 80%;
-  height: 80px;
-  margin: 0% 10% 0% 10%;
+  width: 60%;
+  padding-bottom: 20px;
+  margin: 0% 20% 30px 20%;
+  text-decoration: none;
+  transition: color 0.5s;
   display: block;
+}
+figure a:hover {
+  color: #e67e22;
 }
