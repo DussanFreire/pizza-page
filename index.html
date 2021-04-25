@@ -1,20 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <!-- <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./resources/css/style.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <link rel="stylesheet" href="./vendors/css/normalize.css" type="text/css" />
     <link rel="stylesheet" href="./vendors/css/grid.css" type="text/css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="./vendors/css/ionicons.min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./resources/css/style.css" type="text/css" />
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" /> -->
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
       rel="stylesheet"
     />
     <title>Pizzeria 🍕</title>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   </head>
   <body>
-    <h1>Pizzeria 🍕</h1>
+    <!-- header------------------------------------- -->
+    <header>
+      <nav>
+        <div class="row">
+          <img
+            src="./resources/css/img/logo-piza.png"
+            alt="logo de pizza"
+            class="logo"
+          />
+          <ul class="main-nav">
+            <li><a href="#"> Food delivery</a></li>
+            <li><a href="#">Our Locations</a></li>
+            <li><a href="#">Our Pizzas</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="hero-text-box">
+        <h1>Pizzeria 🍕</h1>
+        <a class="btn btn-full" href="#"> I'm hundry</a>
+        <a class="btn btn-ghost" href="#"> Show me more!</a>
+      </div>
+    </header>
+    <!-- secction1------------------------------------- -->
+    <img
+      class="img-row"
+      src="./resources/css/img/Tier-Menu-Clazzicas-Lovers-cast.png"
+      alt="separadorpizzas clasicas"
+    />
+    <section class="section-features">
+      <div class="row">
+        <h2>Haz tu pedido y disfruta!</h2>
+        <p class="long-text">
+          Ya llego lo que estabas esperando. Ofrecemos un servicio de calidad
+          manteniendo un gran sabor.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-4 box">
+          <ion-icon name="pizza-outline"></ion-icon>
+          <h3>Pizza a la leña</h3>
+          <p class="long-text">
+            Nuesta pizzas a la leña tiene un sabor adictivo y unico, algo que no
+            olvidaras!
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <ion-icon name="infinite-outline"></ion-icon>
+          <h3>Pedidos los 365 días del año</h3>
+          <p class="long-text">
+            Con nuestro servicio sin pausa te acompañamos todos los dias del
+            año!
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <ion-icon name="time-outline"></ion-icon>
+          <h3>Pedidos en menos de 30 minutos!</h3>
+          <p class="long-text">
+            Con nuestro servicio sin pausa te acompañamos todos los dias del
+            año!
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <ion-icon name="bag-add-outline"></ion-icon>
+          <h3>Bioseguridad!</h3>
+          <p class="long-text">
+            Contamos con un servico de delivery y de elbaroacion de pizzas que
+            cumplen con todos los estandares de bioseguridad
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
