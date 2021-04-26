@@ -307,3 +307,12 @@ div.pizza-photo:hover img {
   width: auto;
   margin-right: 10px;
 }
+/* section pizza */
+.section-pizza {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(img/pizza\ delivery.jpg);
+  background-position: center; /* centrar la imagen */
+  background-size: cover; /*to see all the image  */
+  height: 100vh; /* 100  view port*/
+  background-attachment: fixed;
+}
