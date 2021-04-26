@@ -234,11 +234,18 @@ figure a:link {
   transition: color 0.5s;
   display: block;
 }
-figure a:hover {
+
+figure:hover a {
+  /* para que se active si la figura ha sido cubierta */
   color: #e67e22;
 }
+figure:hover img {
+  transform: scale(1.07);
 
-/* how it woirks---------------------------------------- */
+  opacity: 1;
+}
+
+/* how it works---------------------------------------- */
 .section-steps {
   background-color: #f4f4f4;
 }
