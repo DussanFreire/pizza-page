@@ -4,15 +4,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-html {
+html,
+body {
   background-color: aliceblue;
   color: black;
-  font-family: "Lato", Arial, sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
+
 /* General components!---------------------------------------------------- */
 .row {
   max-width: 1140px;
@@ -73,9 +75,17 @@ section {
 }
 
 /* Header!---------------------------------------------------- */
-header {
+header.main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(img/hero.jpg);
+  background-position: center; /* centrar la imagen */
+  background-size: cover; /*to see all the image  */
+  height: 100vh; /* 100  view port*/
+}
+
+header.menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/menu-hero.jpg);
   background-position: center; /* centrar la imagen */
   background-size: cover; /*to see all the image  */
   height: 100vh; /* 100  view port*/
@@ -119,11 +129,14 @@ header {
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
 }
-/* paragraphs */
+/* paragraphs--------------------------------------------------- */
 .long-text {
   line-height: 145%;
   width: 70%;
   margin-left: 15%; /* al faltar 30 porciento del width si ponemos el marge como 15 % estara centrado */
+}
+.section-features .long-text {
+  margin-bottom: 30px;
 }
 .box p {
   font-size: 90%;
@@ -146,10 +159,10 @@ h1 {
   letter-spacing: 1px;
 }
 h2 {
-  margin-bottom: 30px;
   font-size: 180%;
   word-spacing: 2px;
   text-align: center;
+  margin-bottom: 30px;
   letter-spacing: 1px;
 }
 h2:after {
@@ -157,7 +170,7 @@ h2:after {
   height: 2px;
   background-color: #e67e22;
   content: " ";
-  width: 180px;
+  width: 100px;
   margin: 0 auto;
   margin-top: 30px;
 }
@@ -172,6 +185,9 @@ h3 {
   color: #e67e22;
   margin-bottom: 10px;
   --ionicon-stroke-width: 16px;
+  line-height: 120%;
+  /* vertical-align: middle; */
+  margin-top: -5px;
 }
 /* pizzas---------------------------------------------- */
 .pizzas-list {
@@ -193,11 +209,12 @@ h3 {
   width: 60%;
   margin: 4% 20% 4% 20%;
   height: auto;
-  transform: scale(1.1);
+  transform: scale(0.95);
   transition: transform 0.5s;
 }
 .pizza-photo img:hover {
-  transform: scale(1.03);
+  transform: scale(1.07);
+
   opacity: 1;
 }
 
@@ -219,4 +236,61 @@ figure a:link {
 }
 figure a:hover {
   color: #e67e22;
+}
+
+/* how it woirks---------------------------------------- */
+.section-steps {
+  background-color: #f4f4f4;
+}
+
+.steps-box {
+  margin-top: 30px;
+}
+
+.steps-box:first-child {
+  text-align: right;
+  padding-right: 3%;
+}
+
+.steps-box:last-child {
+  text-align: left;
+  padding-left: 3%;
+  margin-top: 70px;
+}
+
+.app-screen {
+  width: 40%;
+}
+
+.works-step {
+  margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+  margin-bottom: 80px;
+}
+
+.works-step div {
+  color: #e67e22;
+  font-size: 150%;
+  height: 54px;
+  width: 54px;
+  border: 2px solid #e67e22;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-right: 25px;
+  float: left;
+  padding: 5px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+  border: 0;
+}
+
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
 }
