@@ -15,6 +15,17 @@ body {
   overflow-x: hidden;
 }
 
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 /* General components!---------------------------------------------------- */
 .row {
   max-width: 1140px;
@@ -81,6 +92,7 @@ header.main {
   background-position: center; /* centrar la imagen */
   background-size: cover; /*to see all the image  */
   height: 100vh; /* 100  view port*/
+  background-attachment: fixed;
 }
 
 header.menu {
@@ -89,6 +101,7 @@ header.menu {
   background-position: center; /* centrar la imagen */
   background-size: cover; /*to see all the image  */
   height: 100vh; /* 100  view port*/
+  background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -197,7 +210,7 @@ h3 {
 .pizzas-list li {
   display: block;
   float: left;
-  width: 33.33%;
+  width: 32%;
 }
 
 .pizza-photo {
@@ -214,18 +227,17 @@ h3 {
 }
 .pizza-photo img:hover {
   transform: scale(1.07);
-
   opacity: 1;
 }
 
-figure {
+div.pizza-photo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
-figure a:visited,
-figure a:link {
+div.pizza-photo a:visited,
+div.pizza-photo a:link {
   color: white;
   text-align: center;
-  font-size: 175%;
+  font-size: 3vw;
   text-transform: uppercase;
   width: 60%;
   padding-bottom: 20px;
@@ -235,11 +247,11 @@ figure a:link {
   display: block;
 }
 
-figure:hover a {
+div.pizza-photo:hover a {
   /* para que se active si la figura ha sido cubierta */
   color: #e67e22;
 }
-figure:hover img {
+div.pizza-photo:hover img {
   transform: scale(1.07);
 
   opacity: 1;
