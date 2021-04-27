@@ -43,7 +43,8 @@ section {
 /* Buttons!---------------------------------------------------- */
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type="submit"] {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -52,11 +53,13 @@ section {
   transition: background-color 0.5s, border 0.5s, color 0.5s;
 }
 
-.box {
+.box,
+input[type="submit"] {
   padding: 1%;
 }
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type="submit"] {
   background-color: #e67e22;
   border: 1px solid #e67e22;
   color: #fff;
@@ -70,12 +73,16 @@ section {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
   background-color: #f08e26;
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
   border: 1px solid #f08e26;
 }
 
@@ -117,6 +124,7 @@ header.menu {
   float: left;
   margin-top: 10px;
 }
+
 .main-nav {
   float: right;
   list-style: none;
@@ -177,6 +185,10 @@ h2 {
   text-align: center;
   margin-bottom: 30px;
   letter-spacing: 1px;
+}
+.section-pizza h2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 h2:after {
   display: block;
@@ -321,8 +333,10 @@ div.pizza-photo:hover img {
 }
 .plan-box {
   background-color: black;
+  width: 90%;
+  height: auto;
   border-radius: 5px;
-  margin-left: 5%;
+  margin-right: 5%;
 }
 .plan-box div {
   padding: 15px;
@@ -359,6 +373,19 @@ div.pizza-photo:hover img {
 .box-and-deatils {
   display: flex;
   align-items: center;
+  margin-top: 0%;
+}
+.destails-box {
+  height: auto;
+}
+.destails-box:first-child {
+  text-align: right;
+  padding-right: 3%;
+}
+
+.destails-box:last-child {
+  text-align: left;
+  padding-left: 3%;
 }
 /* ----------------------------------------------- */
 /* FORM */
@@ -371,11 +398,12 @@ div.pizza-photo:hover img {
 
 input[type="text"],
 input[type="email"],
+input[type="telefono"],
 select,
 textarea {
   width: 100%;
   padding: 7px;
-  border-radius: 3px;
+  border-radius: 5px;
   border: 1px solid #ccc;
 }
 
@@ -386,7 +414,8 @@ textarea {
 input[type="checkbox"] {
   margin: 10px 5px 10px 0;
 }
-
+input[type="submit"] {
+}
 *:focus {
   outline: none;
 }

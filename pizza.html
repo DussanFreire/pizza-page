@@ -19,56 +19,65 @@
     />
     <title>Pizzeria 🍕</title>
   </head>
-  <body>
-    <!-- header------------------------------------- -->
-    <section class="section-pizza">
+  <!-- header--------------------------------------------------------------- -->
+  <header class="section-pizza">
+    <nav>
       <div class="row">
-        <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+        <ul class="main-nav">
+          <li><a href="#"> Food delivery</a></li>
+          <li><a href="#">Our Locations</a></li>
+          <li><a href="#">Our Pizzas</a></li>
+        </ul>
       </div>
-      <div class="row box-and-deatils">
-        <div class="col span-1-of-2 steps-box">
-          <img
-            src="./resources/css/img/pngs/pizza-box-brown.png"
-            alt="Omnifood app on iPhone"
-            class="app-screen js--wp-2"
-          />
-        </div>
-        <div class="col span-1-of-2 steps-box">
-          <div class="plan-box">
-            <div>
-              <h3 id="pizza-h3">Pizza</h3>
-            </div>
-            <ul>
-              <li>Tamaño: Familiar</li>
-              <li>Tiempo de entrega: 30 minutos</li>
-              <li>Costo de envio: Gratuito</li>
-              <li>Precio total: 25 Bs</li>
-            </ul>
-            <div class="btn-container">
-              <a href="#" class="btn btn-full"> Pedir Ya!</a>
-              <a href="#" class="btn btn-ghost">Volver al Menu</a>
-            </div>
+    </nav>
+    <div class="row">
+      <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+    </div>
+    <div class="row box-and-deatils">
+      <div class="col span-1-of-2 destails-box">
+        <img
+          src="./resources/css/img/pngs/pizza-box-brown.png"
+          alt="Omnifood app on iPhone"
+          class="app-screen js--wp-2"
+        />
+      </div>
+      <div class="col span-1-of-2 destails-box">
+        <div class="plan-box">
+          <div>
+            <h3 id="pizza-h3">Pizza</h3>
+          </div>
+          <ul>
+            <li>Tamaño: Familiar</li>
+            <li>Tiempo de entrega: 30 minutos</li>
+            <li>Costo de envio: Gratuito</li>
+            <li>Precio total: 25 Bs</li>
+          </ul>
+          <div class="btn-container">
+            <a href="#" class="btn btn-full"> Pedir Ya!</a>
+            <a href="#" class="btn btn-ghost">Volver al Menu</a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </header>
+  <body>
     <!-- form------------------------------------------------------------ -->
     <section class="section-form">
       <div class="row">
-        <h2>We're happy to hear from you</h2>
+        <h2>Ingresa tu informacion y confirma el pedido</h2>
       </div>
       <div class="row">
         <form method="post" action="#" class="contact-form">
           <div class="row">
             <div class="col span-1-of-3">
-              <label for="name">Name</label>
+              <label for="nombre">Nombre</label>
             </div>
             <div class="col span-2-of-3">
               <input
                 type="text"
-                name="name"
-                id="name"
-                placeholder="Your name"
+                name="nombre"
+                id="nombre"
+                placeholder="Tu nombre"
                 required
               />
             </div>
@@ -82,21 +91,35 @@
                 type="email"
                 name="email"
                 id="email"
-                placeholder="Your email"
+                placeholder="Tu email"
                 required
               />
             </div>
           </div>
           <div class="row">
             <div class="col span-1-of-3">
-              <label for="find-us">How did you find us?</label>
+              <label for="telefono">Telefono</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input
+                type="telefono"
+                name="telefono"
+                id="telefono"
+                placeholder="Tu telefono"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label for="find-us">Como nos encontraste?</label>
             </div>
             <div class="col span-2-of-3">
               <select name="find-us" id="find-us">
-                <option value="friends" selected>Friends</option>
-                <option value="search">Search engine</option>
-                <option value="ad">Advertisement</option>
-                <option value="other">Other</option>
+                <option value="amigos" selected>Amigos</option>
+                <option value="en-redes-sociales">En redes sociales</option>
+                <option value="publicidad">Publicidad</option>
+                <option value="otro">Otro</option>
               </select>
             </div>
           </div>
@@ -111,10 +134,10 @@
           </div>
           <div class="row">
             <div class="col span-1-of-3">
-              <label>Drop us a line</label>
+              <label>Direccion</label>
             </div>
             <div class="col span-2-of-3">
-              <textarea name="message" placeholder="Your message"></textarea>
+              <textarea name="direccion" placeholder="Tu direccion"></textarea>
             </div>
           </div>
           <div class="row">
@@ -122,7 +145,7 @@
               <label>&nbsp;</label>
             </div>
             <div class="col span-2-of-3">
-              <input type="submit" value="Send it!" />
+              <input type="submit" value="Confirmar Pedido!" />
             </div>
           </div>
         </form>
