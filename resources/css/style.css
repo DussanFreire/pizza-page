@@ -202,6 +202,7 @@ h3 {
   /* vertical-align: middle; */
   margin-top: -5px;
 }
+
 /* pizzas----------------------------------------------  */
 .pizzas-list {
   list-style: none;
@@ -228,6 +229,7 @@ h3 {
 }
 
 div.pizza-photo {
+  border-radius: 5%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 div.pizza-photo a:visited,
@@ -316,4 +318,156 @@ div.pizza-photo:hover img {
   height: 100vh; /* 100  view port*/
   background-attachment: fixed;
   color: white;
+}
+.plan-box {
+  background-color: black;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+.plan-box div {
+  padding: 15px;
+  margin-bottom: 0%;
+  border-bottom: 1px solid rgb(17, 17, 17);
+}
+#pizza-h3 {
+  font-size: 150%;
+}
+.plan-box ul {
+  margin-top: 3%;
+  margin-left: 6%;
+}
+.plan-box ul li {
+  margin-top: 3%;
+  margin-left: 6%;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+.pizza-price {
+  font-size: 300%;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.btn-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.box-and-deatils {
+  display: flex;
+  align-items: center;
+}
+/* ----------------------------------------------- */
+/* FORM */
+/* ----------------------------------------------- */
+
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="checkbox"] {
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {
+  outline: none;
+}
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+
+footer {
+  background-color: #333;
+  padding: 50px;
+  font-size: 80%;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  font-size: 160%;
+}
+
+.facebook-logo,
+.twitter-logo,
+.wpp-logo,
+.instagram-logo {
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.facebook-logo:hover {
+  color: #3b5998;
+}
+
+.twitter-logo:hover {
+  color: #00aced;
+}
+
+.wpp-logo:hover {
+  color: #39d025;
+}
+
+.instagram-logo:hover {
+  color: #8d2785;
+}
+
+footer p {
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
 }
