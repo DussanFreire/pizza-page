@@ -323,7 +323,7 @@ div.pizza-photo:hover img {
 }
 /* section pizza */
 .section-pizza {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(img/pizza\ delivery.jpg);
   background-position: center; /* centrar la imagen */
   background-size: cover; /*to see all the image  */
@@ -411,11 +411,6 @@ textarea {
   height: 100px;
 }
 
-input[type="checkbox"] {
-  margin: 10px 5px 10px 0;
-}
-input[type="submit"] {
-}
 *:focus {
   outline: none;
 }
@@ -425,7 +420,7 @@ input[type="submit"] {
 
 footer {
   background-color: #333;
-  padding: 50px;
+  padding: 30px;
   font-size: 80%;
 }
 
