@@ -930,7 +930,7 @@ a {
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .w3-spin {
-  animation: w3-spin 2s infinite linear;
+  animation: w3-spin 20s infinite linear;
 }
 @keyframes w3-spin {
   0% {

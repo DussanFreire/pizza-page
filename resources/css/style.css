@@ -228,7 +228,7 @@ h3 {
   width: 60%;
   margin: 4% 20% 4% 20%;
   height: auto;
-  transform: scale(0.95);
+  transform: scale(0.85);
   transition: transform 1s;
 }
 .pizza-feature {
@@ -363,7 +363,7 @@ div.pizza-photo:hover img {
     url(img/pizza\ delivery.jpg);
   background-position: center; /* centrar la imagen */
   background-size: cover; /*to see all the image  */
-  height: 100vh; /* 100  view port*/
+  height: 100%; /* 100  view port*/
   background-attachment: fixed;
   color: white;
 }
@@ -372,13 +372,21 @@ div.pizza-photo:hover img {
   width: 90%;
   height: auto;
   border-radius: 5px;
-  margin-right: 5%;
+  padding-top: 2%;
+  font-size: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .plan-box div {
   padding: 15px;
   margin-bottom: 0%;
   border-bottom: 1px solid rgb(17, 17, 17);
 }
+#pizza-h2 {
+  margin-bottom: 2%;
+}
+
 #pizza-h3 {
   font-size: 150%;
 }
@@ -406,11 +414,16 @@ div.pizza-photo:hover img {
   align-items: center;
   height: 100%;
 }
-.box-and-deatils {
-  display: flex;
-  align-items: center;
-  margin-top: 0%;
+#btn-pizza a {
+  margin-top: 10px;
 }
+.pizza-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .destails-box {
   height: auto;
 }

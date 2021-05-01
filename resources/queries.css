@@ -12,9 +12,11 @@
 
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
+  .section-pizza,
   body {
     font-size: 18px;
   }
+  .section-pizza,
   section {
     padding: 60px 0;
   }
@@ -35,6 +37,9 @@
   }
   .works-step:last-of-type {
     margin-bottom: 60px;
+  }
+  .pizza-box img {
+    width: 30%;
   }
 
   .app-screen {
@@ -65,13 +70,18 @@
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
+  .section-pizza,
   body {
     font-size: 16px;
   }
+  .section-pizza,
   section {
     padding: 30px 0;
   }
-
+  .pizza-box img {
+    height: 0%;
+    width: 10%;
+  }
   .row,
   .hero-text-box {
     padding: 0 4%;
@@ -133,7 +143,8 @@
     margin-left: 0%;
   }
 
-  .app-screen {
+  .app-screen,
+  .pizza-box {
     width: 40%;
   }
   .steps-box:first-child {
@@ -154,6 +165,13 @@
   .works-step:last-of-type {
     margin-bottom: 20px;
   }
+  .btn-container {
+    clear: both;
+    height: 70%;
+  }
+  img.pizza-box {
+    width: 50%;
+  }
 }
 
 /* Small phones: from 0 to 480px */
@@ -161,7 +179,14 @@
   section {
     padding: 25px 0;
   }
+
   .contact-form {
     width: 100%;
+  }
+  .btn-container {
+    flex-flow: column-reverse;
+  }
+  img.pizza-box {
+    width: 80%;
   }
 }

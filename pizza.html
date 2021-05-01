@@ -22,7 +22,7 @@
     <title>Pizzeria 🍕</title>
   </head>
   <!-- header--------------------------------------------------------------- -->
-  <section class="section-pizza">
+  <header class="section-pizza">
     <nav>
       <div class="row">
         <ul class="main-nav">
@@ -33,35 +33,32 @@
       </div>
     </nav>
     <div class="row">
-      <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+      <h2 id="pizza-h2">Tu pedido!</h2>
     </div>
     <div class="row box-and-deatils">
-      <div class="col span-1-of-2 destails-box">
+      <div class="col span-1-of-2">
         <img
-          src="./resources/css/img/pngs/pizza-box-brown.png"
-          alt="Omnifood app on iPhone"
-          class="app-screen js--wp-2"
+          src="./resources/css/img/pngs/big-pizza-box-brown.png"
+          alt="pizza box"
+          class="app-screen js--wp-2 pizza-box"
         />
       </div>
       <div class="col span-1-of-2 destails-box">
         <div class="plan-box">
-          <div>
-            <h3 id="pizza-h3">Pizza</h3>
-          </div>
           <ul>
             <li>Tamaño: Familiar</li>
             <li>Tiempo de entrega: 30 minutos</li>
             <li>Costo de envio: Gratuito</li>
             <li>Precio total: 25 Bs</li>
           </ul>
-          <div class="btn-container">
+          <div id="btn-pizza" class="btn-container">
             <a href="#" class="btn btn-full"> Pedir Ya!</a>
             <a href="#" class="btn btn-ghost">Volver al Menu</a>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </header>
   <body>
     <!-- form------------------------------------------------------------ -->
     <section class="section-form">
