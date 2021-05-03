@@ -366,6 +366,7 @@ div.pizza-photo:hover img {
   height: 100%; /* 100  view port*/
   background-attachment: fixed;
   color: white;
+  padding-bottom: 30px;
 }
 .plan-box {
   background-color: black;
@@ -383,9 +384,9 @@ div.pizza-photo:hover img {
   margin-bottom: 0%;
   border-bottom: 1px solid rgb(17, 17, 17);
 }
-#pizza-h2 {
+/* #pizza-h2 {
   margin-bottom: 2%;
-}
+} */
 
 #pizza-h3 {
   font-size: 150%;
@@ -401,18 +402,21 @@ div.pizza-photo:hover img {
   letter-spacing: 1px;
 }
 
-.pizza-price {
-  font-size: 300%;
-  margin-bottom: 10px;
-  font-weight: 100;
-}
-
 .btn-container {
   margin-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+.box-and-deatils {
+  margin-top: 60px;
+}
+.plan-box p {
+  padding: 3%;
+  text-transform: uppercase;
+  font-size: 150%;
+  border-bottom: 2px solid #e67e22;
 }
 #btn-pizza a {
   margin-top: 10px;
