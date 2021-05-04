@@ -174,6 +174,9 @@
   img.pizza-box {
     width: 50%;
   }
+  header.section-pizza {
+    padding-top: 15%;
+  }
 }
 @media only screen and (max-width: 583px) {
   .hero-btns {
@@ -182,6 +185,9 @@
     display: flex;
     align-content: center;
     /* justify-content: center; */
+  }
+  header.section-pizza {
+    padding-top: 25%;
   }
 
   .hero-btns a {
@@ -204,6 +210,9 @@
   section {
     padding: 25px 0;
   }
+  header.section-pizza {
+    padding-top: 30%;
+  }
 
   .contact-form {
     width: 100%;
@@ -213,5 +222,8 @@
   }
   img.pizza-box {
     width: 80%;
+  }
+  .logo {
+    width: 100%;
   }
 }
