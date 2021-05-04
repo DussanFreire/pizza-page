@@ -116,7 +116,7 @@ header.menu {
 .hero-text-box {
   position: absolute;
   width: 1140;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%); /* to center the text */
 }
@@ -126,19 +126,24 @@ header.menu {
   justify-content: center;
 }
 .logo {
-  height: 200px;
-  width: auto;
-  margin-top: 10px;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   position: absolute;
 }
 
-/* Main navi */
-.main-nav {
-  float: right;
-  list-style: none;
-  margin-top: 55px;
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #e67e22;
 }
 
+.main-nav {
+  /* float: right; */
+  list-style: none;
+  /* margin-top: 55px; */
+}
 .main-nav li {
   display: inline-block;
   margin-left: 40px;
@@ -147,21 +152,17 @@ header.menu {
 .main-nav li a:link,
 .main-nav li a:visited {
   padding: 8px 0;
-  color: #fff;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 90%;
+  font-size: 100%;
   border-bottom: 2px solid transparent;
-  -webkit-transition: border-bottom 0.2s;
-  transition: border-bottom 0.2s;
+  transition: border-bottom 0.5s;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
-}
-
-
 }
 /* paragraphs--------------------------------------------------- */
 .long-text {
@@ -427,7 +428,8 @@ div.pizza-photo:hover img {
   height: 100%; /* 100  view port*/
   background-attachment: fixed;
   color: white;
-  padding-bottom: 30px;
+  padding-bottom: 45px;
+  padding-top: 45px;
 }
 .plan-box {
   background-color: black;
