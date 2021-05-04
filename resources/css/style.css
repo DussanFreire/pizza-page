@@ -120,11 +120,16 @@ header.menu {
   left: 50%;
   transform: translate(-50%, -50%); /* to center the text */
 }
+
+.hero-btns {
+  display: flex;
+  justify-content: center;
+}
 .logo {
   height: 200px;
   width: auto;
-  float: left;
   margin-top: 10px;
+  position: absolute;
 }
 
 .main-nav {
@@ -180,6 +185,7 @@ h1 {
   font-size: 240%;
   word-spacing: 4px;
   letter-spacing: 1px;
+  text-align: center;
 }
 h2 {
   font-size: 180%;
