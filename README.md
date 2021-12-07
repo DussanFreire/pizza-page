@@ -34,15 +34,15 @@ This is only CSS work. It's the front-end in CSS of a Pizza restaurant
 
 :heavy_check_mark: Menu Page;\
 <p align="center">
-  <img src="./photos/pizza-menu-page.png" width="350" title="menu">
+  <img src="./photos/pizza-menu-page.png" width="700" title="menu">
 </p>
 :heavy_check_mark: Pizza Page;\
 <p align="center">
-  <img src="./photos/pizza-page.png" width="350" title="menu">
+  <img src="./photos/pizza-page.png" width="700" title="menu">
 </p>
 :heavy_check_mark: Form;
 <p align="center">
-  <img src="./photos/pizza-form-page.png" width="350" title="menu">
+  <img src="./photos/pizza-form-page.png" width="700" title="menu">
 </p>
 
 ## :rocket: Technologies ##
