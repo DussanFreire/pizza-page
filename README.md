@@ -1,11 +1,3 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="CSS Work" />
-
-  &#xa0;
-
-  <!-- <a href="https://csswork.netlify.app">Demo</a> -->
-</div>
-
 <h1 align="center">Pizza page</h1>
 
 <!-- Status -->
@@ -52,6 +44,7 @@ This is only CSS work. It's the front-end in CSS of a Pizza restaurant
 <p align="center">
   <img src="./photos/pizza-form-page.png" width="350" title="menu">
 </p>
+
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
