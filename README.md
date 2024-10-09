@@ -1,11 +1,6 @@
 <h1 align="center">🍕 Pizza Restaurant Page 🍕</h1>
 
 <p align="center">
-  <a href="#about">About</a> &#xa0; | &#xa0;
-  <a href="#features">Features</a> &#xa0; | &#xa0;
-  <a href="#technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#getting-started">Getting Started</a> &#xa0; | &#xa0;
   <a href="https://github.com/DussanFreire" target="_blank">Author</a>
 </p>
 
