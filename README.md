@@ -1,69 +1,64 @@
-<h1 align="center">Pizza page</h1>
-
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  CSS Work 🚀 Under construction...  🚧
-</h4> 
-
-<hr> -->
+<h1 align="center">🍕 Pizza Restaurant Page 🍕</h1>
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#about">About</a> &#xa0; | &#xa0;
+  <a href="#features">Features</a> &#xa0; | &#xa0;
+  <a href="#technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#getting-started">Getting Started</a> &#xa0; | &#xa0;
   <a href="https://github.com/DussanFreire" target="_blank">Author</a>
 </p>
 
 <br>
 
-## :dart: About ##
+## 📜 About 
 
-# Pizza - Page
+This project is a front-end CSS showcase for a pizza restaurant website. The design includes a menu, a detailed pizza page, and a form page, all built using pure CSS. It demonstrates clean, responsive layouts with a focus on visual appeal and user-friendly navigation.
 
-This is only CSS work. It's the front-end in CSS of a Pizza restaurant
-
-
-
-<img source>
-
-
-## :sparkles: Features ##
-
-:heavy_check_mark: Menu Page;\
 <p align="center">
   <img src="./photos/pizza-menu-page.png" width="700" title="menu">
 </p>
-:heavy_check_mark: Pizza Page;\
+
+
+## ✨ Features
+
+
+* Menu Page: A visually attractive layout displaying the available pizza options.
 <p align="center">
-  <img src="./photos/pizza-page.png" width="700" title="menu">
+  <img src="./photos/pizza-menu-page.png" width="700" title="menu">
 </p>
-:heavy_check_mark: Form;
+* Pizza Detail Page: A page showcasing detailed information about individual pizzas.
+<p align="center">
+  <img src="./photos/pizza-page.png" width="700" title="Pizza Page">
+</p>
+
+* Order Form: A responsive form for ordering pizzas.
 <p align="center">
   <img src="./photos/pizza-form-page.png" width="700" title="menu">
 </p>
 
-## :rocket: Technologies ##
+## 🚀 Technologies
 
-The following tools were used in this project:
+This project was built using the following technologies:
 
-- CSS
+* CSS: All the styling and layout is done using pure CSS without any frameworks
 
+## ✅ Requirements ##
 
-## :white_check_mark: Requirements ##
+Before running the project, ensure you have the following installed:
+* [Git](https://git-scm.com)
+* [Node](https://nodejs.org/en/) 
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
-
-## :checkered_flag: Starting ##
+## 🏁 Getting Started ##
 
 ```bash
-# Clone this project
+# Clone this repository
 $ git clone https://github.com/DussanFreire/pizza-page
 
-# Run the project
-Using liver server
+# Open the project folder
+$ cd pizza-page
+
+# Open the project in your browser using Live Server (Visual Studio Code extension)
 ```
 
 
